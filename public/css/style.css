@@ -1,0 +1,15 @@
+body{
+    background-color: #000;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: "source-code";
+    font-size: x-large;
+    color: green
+}
+
+@font-face{
+    font-family: "source-code";
+    src: url("../assets/fonts/sourcecode.ttf");
+}
