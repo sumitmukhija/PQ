@@ -1,0 +1,35 @@
+body{
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;        
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+    flex-basis: 80%;
+    padding: 5rem;
+    font-family: "source-code";
+    font-size: x-large;
+    color: green
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p, a{
+    color: green;
+    font-family: "source-code";
+}
+
+@font-face{
+    font-family: "source-code";
+    src: url("../assets/fonts/sourcecode.ttf");
+}
